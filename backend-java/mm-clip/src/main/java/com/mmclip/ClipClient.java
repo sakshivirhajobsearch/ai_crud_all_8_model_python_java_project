@@ -14,7 +14,9 @@ import org.apache.hc.core5.http.io.entity.EntityUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ClipClient {
+	
 	public static double getSimilarity(String imagePath, String text) throws Exception {
+		
 		String url = "http://localhost:5003/clip/similarity";
 
 		try (CloseableHttpClient client = HttpClients.createDefault()) {
