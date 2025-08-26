@@ -1,0 +1,119 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.env
+env/
+venv/
+.venv/
+*.egg-info/
+*.egg
+*.pytest_cache/
+.ipynb_checkpoints/
+
+# =========================
+# Python virtual environments
+# =========================
+env/
+venv/
+.venv/
+ENV/
+
+# =========================
+# Python package / dist
+# =========================
+build/
+dist/
+*.whl
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven build
+target/
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# VSCode
+.vscode/
+
+# Eclipse
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.launch
+.settings/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Data / Outputs (All modules)
+# =========================
+# Python model outputs
+**/models-python/**/checkpoints/
+**/models-python/**/logs/
+**/models-python/**/saved_models/
+**/models-python/**/outputs/
+**/models-python/**/*.h5
+**/models-python/**/*.ckpt
+**/models-python/**/*.pt
+**/models-python/**/*.pth
+**/models-python/**/*.npy
+**/models-python/**/*.npz
+**/models-python/**/*.onnx
+
+# Java module outputs
+**/backend-java/**/target/
+**/backend-java/**/logs/
+
+# Data folders
+data/images/
+data/texts/
+data/proteins/
+
+# =========================
+# Logs / temp files
+# =========================
+*.log
+*.bak
+*.tmp
+*.swp

@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.ai.crud.all.model.python.java.project</groupId>
+	<artifactId>ai_crud_all_model_python_java_project</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>AI CRUD Project</name>
+	<description>Parent POM for AI CRUD Java backend modules</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.1</version>
+		<relativePath />
+	</parent>
+
+	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<spring.boot.version>3.2.2</spring.boot.version>
+	</properties>
+
+	<!-- Single dependencyManagement block -->
+	<dependencyManagement>
+		<dependencies>
+			<!-- Spring Boot dependencies -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring.boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Common dependencies for all modules -->
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.18.30</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+			</dependency>
+
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+			</dependency>
+
+			<!-- MySQL dependency -->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>8.1.1</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>backend-java/ml-linear-regression</module>
+		<module>backend-java/dl-cnn</module>
+		<module>backend-java/nlp-bert</module>
+		<module>backend-java/gan</module>
+		<module>backend-java/rl-qlearning</module>
+		<module>backend-java/cv-yolo</module>
+		<module>backend-java/mm-clip</module>
+		<module>backend-java/specialized-alphafold</module>
+	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- Compiler plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.11.0</version>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+					</configuration>
+				</plugin>
+
+				<!-- Spring Boot plugin -->
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<version>3.2.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>
