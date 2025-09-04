@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.ai.crud.all.model.python.java.project</groupId>
-		<artifactId>ai_crud_all_model_python_java_project</artifactId>
+		<groupId>ai.crud.all.8.model</groupId>
+		<artifactId>ai_crud_all_8_model_python_java_project</artifactId>
 		<version>1.0.0</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>

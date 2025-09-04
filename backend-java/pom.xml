@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ai.crud</groupId>
-	<artifactId>ai-crud-project</artifactId>
+	<groupId>ai.crud.all.8.model</groupId>
+	<artifactId>ai_crud_all_8_model_project</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 

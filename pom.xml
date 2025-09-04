@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ai.crud.all.model</groupId>
+	<groupId>ai.crud.all.8.model</groupId>
 	<artifactId>ai_crud_all_8_model_python_java_project</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
