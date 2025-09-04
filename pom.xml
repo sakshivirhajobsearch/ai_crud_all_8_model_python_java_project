@@ -9,7 +9,7 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>AI CRUD All Mmodel Project</name>
+	<name>AI CRUD All Model Project</name>
 	<description>Parent POM for AI CRUD Java backend modules</description>
 
 	<parent>
