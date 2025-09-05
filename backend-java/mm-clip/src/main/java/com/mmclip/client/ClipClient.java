@@ -1,4 +1,4 @@
-package com.mmclip;
+package com.mmclip.client;
 
 import java.io.File;
 import java.util.Map;

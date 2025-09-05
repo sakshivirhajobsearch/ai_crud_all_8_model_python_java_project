@@ -1,4 +1,6 @@
-package com.mmclip;
+package com.mmclip.controller;
+
+import com.mmclip.client.ClipClient;
 
 public class ClipController {
 	
