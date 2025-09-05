@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MlLinearRegression {
+public class MlLinearRegressionApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MlLinearRegression.class, args);
+		SpringApplication.run(MlLinearRegressionApplication.class, args);
 	}
 }
