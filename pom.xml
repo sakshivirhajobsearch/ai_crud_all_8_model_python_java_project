@@ -62,17 +62,25 @@
 				<artifactId>mysql-connector-java</artifactId>
 				<version>8.1.1</version>
 			</dependency>
+			<!-- Optional: H2 for testing -->
+			<!--
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        -->
 		</dependencies>
 	</dependencyManagement>
 
 	<modules>
-		<module>backend-java/ml-linear-regression</module>
-		<module>backend-java/dl-cnn</module>
-		<module>backend-java/nlp-bert</module>
-		<module>backend-java/gan</module>
-		<module>backend-java/rl-qlearning</module>
 		<module>backend-java/cv-yolo</module>
+		<module>backend-java/dl-cnn</module>
+		<module>backend-java/gan</module>
+		<module>backend-java/ml-linear-regression</module>
 		<module>backend-java/mm-clip</module>
+		<module>backend-java/nlp-bert</module>
+		<module>backend-java/rl-qlearning</module>
 		<module>backend-java/specialized-alphafold</module>
 	</modules>
 

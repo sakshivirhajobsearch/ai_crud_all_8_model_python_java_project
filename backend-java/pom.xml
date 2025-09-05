@@ -10,13 +10,13 @@
 
 	<name>AI CRUD Project Parent</name>
 	<modules>
-		<module>ml-linear-regression</module>
-		<module>dl-cnn</module>
-		<module>nlp-bert</module>
-		<module>gan</module>
-		<module>rl-qlearning</module>
 		<module>cv-yolo</module>
+		<module>dl-cnn</module>
+		<module>gan</module>
+		<module>ml-linear-regression</module>
 		<module>mm-clip</module>
+		<module>nlp-bert</module>
+		<module>rl-qlearning</module>
 		<module>specialized-alphafold</module>
 	</modules>
 
