@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BertApiApplication {
+public class NLPBertApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BertApiApplication.class, args);
+		SpringApplication.run(NLPBertApplication.class, args);
 	}
 }
