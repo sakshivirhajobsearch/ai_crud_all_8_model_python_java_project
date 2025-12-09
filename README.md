@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** Python, Java (Maven/Gradle), Flask, Spring Boot, PyTorch, TensorFlow / Keras, scikit-learn, HuggingFace Transformers
+- **Detected Technologies:** Java, Python
 - **GitHub Topics:** None
 
 ---
